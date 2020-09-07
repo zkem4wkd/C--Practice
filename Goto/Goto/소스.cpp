@@ -39,7 +39,7 @@ exit:
 	int c = a << 2;
 	cout << bitset<8>(c) << endl;*/
 
-	int equip = 0;
+	/*int equip = 0;
 
 	enum equipActive
 	{
@@ -61,4 +61,33 @@ exit:
 	equip = equip & ~ring;
 
 	cout << bitset<8>(equip) << endl;
+
+	int val = equip;
+	if (((val & weapon) != 0) ? true : false)
+	{
+		cout << "weapon" << endl;
+	}
+	else
+		cout << "nothing " << endl;*/
+
+
+	/*for (int i = 0; i < 5; i++)
+	{
+		for (int j = 0; j < 5; j++)
+		{
+			cout <<" " << i << j;
+		}
+		cout << endl;
+	}*/
+
+	for (int i = 0; i <= 5; i++)
+	{
+		cout << " ";
+		for (int j = 5; j > i; j--)
+		{
+			cout << "*";
+		}
+		cout << endl;
+	}
+
 }
