@@ -1,0 +1,9 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppClean.targets(76,5): warning : 'd:\github\c--practice\blockbuster\debug\blockbuster.exe' 경로에 대한 액세스가 거부되었습니다.
+  cBall.cpp
+D:\GitHub\C--Practice\BlockBuster\BlockBuster\cBall.cpp(46,27): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+D:\GitHub\C--Practice\BlockBuster\BlockBuster\cBall.cpp(46,29): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+  cGameMain.cpp
+  소스.cpp
+D:\GitHub\C--Practice\BlockBuster\BlockBuster\소스.cpp(32,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  코드를 생성하고 있습니다...
+LINK : fatal error LNK1104: 'D:\GitHub\C--Practice\BlockBuster\Debug\BlockBuster.exe' 파일을 열 수 없습니다.
