@@ -12,21 +12,17 @@ void cBall::Progress()
 	tInfo.m_nY += tInfo.Y;
 	
 	if (tInfo.m_nX == 0)
-	{
 		tInfo.X = 1;
-	}
-	if (tInfo.m_nX == 78)
-	{
+	
+	if (tInfo.m_nX == 80)
 		tInfo.X = -1;
-	}
+	
 	if (tInfo.m_nY == 0)
-	{
 		tInfo.Y = 1;
-	}
-	if (tInfo.m_nY == 24)
-	{
+	
+	if (tInfo.m_nY == 30)
 		tInfo.Y = -1;
-	}
+	
 
 }
 

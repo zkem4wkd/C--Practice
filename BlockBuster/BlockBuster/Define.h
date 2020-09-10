@@ -15,8 +15,8 @@ using namespace std;
 //}INFO;
 struct INFO
 {
-	int m_nX;
-	int m_nY;
+	int m_nX = 0;
+	int m_nY = 0;
 	int X = 1;
 	int Y = 1;
 
