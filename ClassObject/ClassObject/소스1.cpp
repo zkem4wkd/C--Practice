@@ -33,7 +33,7 @@ void Student::showData()
 }
 
 
-void main()
+void main5()
 {
 	Student kim;
 
