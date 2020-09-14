@@ -32,7 +32,7 @@ public:
 	}
 };
 
-int main()
+int main5()
 {
 	cPlayer p;
 
