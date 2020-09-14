@@ -1,0 +1,5 @@
+﻿  CBall.cpp
+D:\GitHub\C--Practice\벽돌깨기3\벽돌깨기3\define.h(34,27): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+D:\GitHub\C--Practice\벽돌깨기3\벽돌깨기3\define.h(34,30): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+D:\GitHub\C--Practice\벽돌깨기3\벽돌깨기3\CBall.cpp(95,6): warning C4101: 'n_key' :참조되지 않은 지역 변수입니다.
+  벽돌깨기3.vcxproj -> D:\GitHub\C--Practice\벽돌깨기3\Debug\벽돌깨기3.exe

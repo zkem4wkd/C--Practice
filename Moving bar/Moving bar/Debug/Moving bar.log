@@ -1,0 +1,15 @@
+﻿  cBall.cpp
+D:\GitHub\C--Practice\Moving bar\Moving bar\define.h(29,27): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+D:\GitHub\C--Practice\Moving bar\Moving bar\define.h(29,29): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+  cBar.cpp
+D:\GitHub\C--Practice\Moving bar\Moving bar\define.h(29,27): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+D:\GitHub\C--Practice\Moving bar\Moving bar\define.h(29,29): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+  cMainGame.cpp
+D:\GitHub\C--Practice\Moving bar\Moving bar\define.h(29,27): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+D:\GitHub\C--Practice\Moving bar\Moving bar\define.h(29,29): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+  소스.cpp
+D:\GitHub\C--Practice\Moving bar\Moving bar\define.h(29,27): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+D:\GitHub\C--Practice\Moving bar\Moving bar\define.h(29,29): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+D:\GitHub\C--Practice\Moving bar\Moving bar\소스.cpp(16,17): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  코드를 생성하고 있습니다...
+  Moving bar.vcxproj -> D:\GitHub\C--Practice\Moving bar\Debug\Moving bar.exe

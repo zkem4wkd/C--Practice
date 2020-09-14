@@ -140,11 +140,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="cBall.cpp" />
+    <ClCompile Include="cBar.cpp" />
     <ClCompile Include="cGameMain.cpp" />
     <ClCompile Include="소스.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cBall.h" />
+    <ClInclude Include="cBar.h" />
     <ClInclude Include="cGameMain.h" />
     <ClInclude Include="Define.h" />
   </ItemGroup>
