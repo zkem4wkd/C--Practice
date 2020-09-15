@@ -1,0 +1,2 @@
+C:\C\C--Practice\TextRPG\Debug\TextRPG.exe
+C:\C\C--Practice\TextRPG\Debug\TextRPG.pdb
