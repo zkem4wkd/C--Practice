@@ -46,40 +46,69 @@ void CField::CreateMonster(int input)
 	{
 	case 1:
 		//초보몬스터 생성
-		m_pMonster = new CMonster;		
-		tMonster.strName = "초보몹";
-		tMonster.iHp = 30;
-		tMonster.iAttack = 3;
-		m_pMonster->SetMonster(tMonster);
+		m_pMonster = Create("초보몹", 30, 3);
 		break;
 	case 2:
 		//중수몬스터 생성
-		m_pMonster = new CMonster;		
-		tMonster.strName = "중수몹";
-		tMonster.iHp = 60;
-		tMonster.iAttack = 6;
-		m_pMonster->SetMonster(tMonster);
+		m_pMonster = Create("중수몹", 50, 5);
 		break;
 	case 3:
 		//고수몬스터 생성
-		m_pMonster = new CMonster;		
-		tMonster.strName = "고수몹";
-		tMonster.iHp = 90;
-		tMonster.iAttack = 9;
-		m_pMonster->SetMonster(tMonster);
+		m_pMonster = Create("고수몹", 70, 7);
 		break;
 	}
 
 
 }
+//팩토리 메서드 패턴 형태
+CMonster* CField::Create(string _strName, int _iHp, int _iAttack)
+{
+	CMonster* pMonster = new CMonster;
+
+	INFO tMonster = { "" };
+	tMonster.strName = _strName;
+	tMonster.iHp = _iHp;
+	tMonster.iAttack = _iAttack;
+	pMonster->SetMonster(tMonster);
+	return pMonster;
+}
 
 void CField::Fight()
 {
-	//오늘 실습해보기 
-	//싸움구현해보기
-	m_pPlayer->Render();
-	m_pMonster->Render();
-	system("pause");
+	int iInput = 0;
+
+	while (true)
+	{
+		system("cls");
+		m_pPlayer->Render();
+		m_pMonster->Render();
+		
+		cout << "1. 공격 2. 도망 : ";
+		cin >> iInput;
+
+		if (iInput == 1)
+		{
+			m_pPlayer->SetDamage(m_pMonster->GetMonster().iAttack);
+			m_pPlayer->SetDamage(m_pPlayer->GetInfo().iAttack);
+
+		}
+		if (m_pPlayer->GetInfo().iHp <= 0)
+		{
+			m_pPlayer->SetHp(100);
+			break;
+		}
+
+		if (iInput == 2 || m_pMonster->GetMonster().iHp <= 0)
+		{
+			delete m_pMonster;
+			m_pMonster = NULL; // 혹시 모를 오류를 대비한 초기화
+
+			break;
+		}
+	}
+
+
+
 }
 
 CField::CField()

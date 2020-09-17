@@ -11,6 +11,7 @@ public:
 	void Progress();
 	void DrawMap();
 	void CreateMonster(int input);
+	CMonster* Create(string _strName, int _iHp, int _iAttack);
 	void Fight();
 public:
 	void SetPlayer(CPlayer* pPlayer) 
