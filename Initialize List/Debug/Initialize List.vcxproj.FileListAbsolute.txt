@@ -1,0 +1,2 @@
+C:\C\C--Practice\Initialize List\Debug\Initialize List.exe
+C:\C\C--Practice\Initialize List\Debug\Initialize List.pdb
